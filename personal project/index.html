@@ -1,104 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Website Layout</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LensCraft | Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<section id="section-1">
-		<div class="container">
-			<header>
-				<img src="photo.png">
-				<nav>
-					<ul>
-						<li class="active"><a href="#">HOME</a></li>
-						<li><a href="#">ABOUT</a></li>
-						<li><a href="#">WORK</a></li>
-						<li><a href="#">BLOG</a></li>
-						<li><a href="#">CONTACT</a></li>
-					</ul>
-				</nav>
-			</header>
-			<div class="main-heading">
-				<h1>Hi there! Do you like taking photos? Join us to learn how to take awesome photos and become a professional photographer.</h1>
-				<a href="#">JOIN US AND HAVE FUN!</a>
-			</div>
-		</div>
-	</section>
-	<section id="section-2">
-		<div class="container">
-			<div class="title-box">
-				<h2>INFORMATION ABOUT US</h2>
-				<div class="line"></div>
-				<p>Here are some photos and some students of ours.We have so much fun going to places every week and taking pictures of everything we see.</p>
-			</div>
-			<div class="services-box">
-				<div class="service">
-					<img src="sea.png">
-					<h3>BRANDING</h3>
-					<p>This was one of our students and now he's a famous photographer.Here he is taking photos of the sunset at the beach.</p>
-				</div>
-				<div class="service">
-					<img src="student.jpg">
-					<h3>BRANDING</h3>
-					<p>This is our foreign student from Asia.She loves taking photos.</p>
-				</div>
-				<div class="service">
-					<img src="nature.jpg">
-					<h3>BRANDING</h3>
-					<p>This is a photo taken by us of the beautiful nature.</p>
-				</div>
-				<div class="service">
-					<img src="trees.jpg">
-					<h3>BRANDING</h3>
-					<p>Here is another photo of ours taken by a student.</p>
-				</div>
-				
-			</div>
-			
-		</div>
-		
-	</section>
 
-	<section id="section-3">
-		<div class="container">
-			<div class="title-box">
-				<h2>GET IN TOUCH</h2>
-				<div class="line"></div>
-				<p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
-			</div>
-			<div id="contact-form">
-				<form>
-					<div class="form-row">
-						<input type="text" name="name" placeholder="Your Name">
-						<input type="email" name="email" placeholder="Your Email">
-					</div>
-					<div class="form-row">
-						<textarea name="message" placeholder="Your Message"></textarea>
-					</div>
-					<div class="form-row">
-						<input type="submit" class="big-button" value="Send Message">
-					</div>
-				</form>
-			</div>	
-		</div>
-	</section>
-	<footer>
-        <div class="container">
-            <div class="footer-links">
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Google+</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">Behance</a></li>
-                    <li><a href="#">Dribble</a></li>
-                    <li><a href="#">GitHub</a></li>
+    <header class="site-header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <img src="images/photo.jpg" alt="LensCraft Logo">
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
-            </div>
-            
+            </nav>
         </div>
-    </footer>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-overlay">
+                <div class="container hero-content">
+                    <h1>Hi there! Do you like taking photos?</h1>
+                    <p>Join us to learn how to take awesome photos and become a professional photographer.</p>
+                    <a href="contact.html" class="btn-primary">JOIN US AND HAVE FUN!</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-section" id="home-info">
+            <div class="container">
+                <div class="section-title">
+                    <h2>INFORMATION ABOUT US</h2>
+                    <div class="accent-line center"></div>
+                    <p>Here are some photos and some students of ours. We have so much fun going to places every week and taking pictures of everything we see.</p>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card">
+                        <img src="images/sea.png" alt="Student work - Sea">
+                        <h3>LANDSCAPES</h3>
+                        <p>This was one of our students and now he's a famous photographer. Here he is taking photos of the sunset at the beach.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <img src="images/student.jpg" alt="Our Student">
+                        <h3>PORTRAITURE</h3>
+                        <p>This is our foreign student from Asia. She loves taking photos and capturing unique human emotions.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <img src="images/nature.jpg" alt="Nature photo">
+                        <h3>WILDLIFE</h3>
+                        <p>This is a photo taken by us during a field trip to the local national park.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <img src="images/trees.jpg" alt="Trees photo">
+                        <h3>COMPOSITION</h3>
+                        <p>Here is another photo of ours taken by a student focusing on natural lines and framing.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="mission-statement">
+            <div class="container">
+                <div class="mission-box">
+                    <h2>READY TO START?</h2>
+                    <p>"Your first 10,000 photographs are your worst. Let's start taking the good ones together."</p>
+                    <div class="social-links-simple">
+                        <a href="#">FB</a> / <a href="#">TW</a> / <a href="#">IG</a> / <a href="#">LI</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 </body>
 </html>
