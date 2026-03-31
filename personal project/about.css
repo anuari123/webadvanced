@@ -1,4 +1,4 @@
-/* --- Shared Header & Footer (Kept from Home) --- */
+
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -39,7 +39,7 @@ body {
     background-color: #336075;
 }
 
-/* --- About Hero Section --- */
+
 #about-hero {
     background: url('about-hero.jpg') no-repeat center center/cover;
     position: relative;
@@ -48,7 +48,7 @@ body {
 }
 
 .hero-overlay {
-    background: rgba(51, 96, 117, 0.85); /* Dark blue tint */
+    background: rgba(51, 96, 117, 0.85); 
     padding: 100px 0;
 }
 
@@ -58,7 +58,7 @@ body {
     text-transform: uppercase;
 }
 
-/* --- Info/History Section --- */
+
 .info-section {
     padding: 100px 0;
     background-color: #ffffff;
@@ -84,10 +84,10 @@ body {
 .rounded-img {
     width: 100%;
     border-radius: 15px;
-    box-shadow: 15px 15px 0px #17c2a4; /* Photography-style frame */
+    box-shadow: 15px 15px 0px #17c2a4; 
 }
 
-/* --- Mission Statement --- */
+
 .mission-statement {
     background-color: #17c2a4;
     color: white;
@@ -104,7 +104,7 @@ body {
     font-weight: 300;
 }
 
-/* --- Team Section --- */
+
 #team {
     background-color: #f4f4f4;
     padding: 100px 0;
@@ -129,12 +129,10 @@ body {
     transition: transform 0.3s ease;
 }
 
-.team-card:hover { transform: translateY(-10px); }
 
 .member-img img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
     object-fit: cover;
     border: 5px solid #17c2a4;
     margin-bottom: 20px;
@@ -150,7 +148,7 @@ body {
     font-size: 14px;
 }
 
-/* --- Footer --- */
+
 .site-footer {
     background-color: #1b4230;
     color: white;
@@ -169,7 +167,6 @@ body {
 .social-links li { margin: 0 15px; }
 .social-links a { color: white; text-decoration: none; font-size: 18px; }
 
-/* --- Mobile Responsiveness --- */
 @media (max-width: 768px) {
     .flex-row, .team-grid {
         flex-direction: column;

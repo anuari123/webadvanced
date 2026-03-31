@@ -95,7 +95,7 @@ ul {
     transform: translateY(-2px);
 }
 
-/* --- Section Headers --- */
+
 .section-title {
     text-align: center;
     padding-top: 100px;
@@ -116,9 +116,9 @@ ul {
     margin: 20px auto;
 }
 
-/* --- Services Grid (Home Info) --- */
+
 .info-section {
-    background-color: #17c2a4;
+    background-color: #336075;
     color: white;
     padding-bottom: 120px;
 }
@@ -126,7 +126,7 @@ ul {
 .services-grid {
     display: flex;
     justify-content: space-between;
-    gap: 30px; /* Added spacing between items */
+    gap: 30px; 
 }
 
 .service-card {
@@ -136,16 +136,16 @@ ul {
 }
 
 .service-card:hover {
-    transform: translateY(-10px); /* Lifts the card on hover */
+    transform: translateY(-10px); 
 }
 
 .service-card img {
-    width: 220px; /* Made images significantly bigger */
-    height: 220px; /* Set a fixed height for a uniform look */
-    object-fit: cover; /* Ensures photos fill the circle properly */
-    border-radius: 50%; /* Makes them circular */
+    width: 220px; 
+    height: 220px; 
+    object-fit: cover; 
+    border-radius: 50%; 
     margin-bottom: 25px;
-    border: 8px solid rgba(255, 255, 255, 0.2); /* Soft border styling */
+    border: 8px solid rgba(255, 255, 255, 0.2); 
 }
 
 .service-card h3 {
@@ -153,9 +153,9 @@ ul {
     margin-bottom: 15px;
 }
 
-/* --- Final Mission Section --- */
+
 .mission-statement {
-    background-color: #14a58c; /* Slightly different shade for depth */
+    background-color: #14a58c; 
     color: white;
     text-align: center;
     padding: 100px 0;
@@ -186,7 +186,7 @@ ul {
     opacity: 0.7;
 }
 
-/* --- Mobile Responsiveness --- */
+
 @media (max-width: 768px) {
     .services-grid {
         flex-direction: column;
