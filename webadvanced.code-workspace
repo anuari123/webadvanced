@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../modul 30"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "modul 30"
+	}
+}
